@@ -1,8 +1,31 @@
-./Ex1/Exercise1
-./Ex1/Exercise1.hi
-./Ex1/Exercise1.o
+# Created by https://www.toptal.com/developers/gitignore/api/haskell
+# Edit at https://www.toptal.com/developers/gitignore?templates=haskell
 
-./Ex2/Exercise2
-./Ex2/Exercise2.hi
-./Ex2/Exercise2.o
+### Haskell ###
+dist
+dist-*
+cabal-dev
+*.o
+*.hi
+*.hie
+*.chi
+*.chs.h
+*.dyn_o
+*.dyn_hi
+.hpc
+.hsenv
+.cabal-sandbox/
+cabal.sandbox.config
+*.prof
+*.aux
+*.hp
+*.eventlog
+.stack-work/
+cabal.project.local
+cabal.project.local~
+.HTF/
+.ghc.environment.*
+Exercise1
+Exercise2
 
+# End of https://www.toptal.com/developers/gitignore/api/haskell
