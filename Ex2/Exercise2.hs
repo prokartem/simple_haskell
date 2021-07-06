@@ -100,7 +100,7 @@ drawSquares x y side n floor = do
    C.stroke
    drawSquares (x+side) y side (n-1) floor
 
------- Clear
+------ Pure
 
 setPascalTriangle :: AmountOfFloors -> PascalTriangle
 setPascalTriangle = bar root
